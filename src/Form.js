@@ -1,6 +1,8 @@
 
+
 import { Form, Formik, Field, ErrorMessage,useField } from 'formik';
 import * as Yup from 'yup'
+
 
 const MyTextInput = ({label,...props}) => {
     const [field, meta] = useField(props)
@@ -14,6 +16,8 @@ const MyTextInput = ({label,...props}) => {
         </>
     )
 }
+
+
 
 const MyCheckBox = ({children,...props}) => {
     const [field, meta] = useField({...props, type: 'checkbox'})
