@@ -4,7 +4,7 @@ import CastomForm from './Formic+Yup(optimization)'
 function App() {
   return (
     <div className="app">
-        <CastomForm/>
+      q
     </div>
   );
 }
